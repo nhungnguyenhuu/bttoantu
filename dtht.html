@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diện tích hình tròn</title>
+
+</head>
+<body>
+<p>Nhập bán kính hình tròn</p>
+<input type="text" id="r">
+<button type="button" onclick="nhapBanKinh()">Tính</button>
+<script>
+    const pi = 3.14;
+    function nhapBanKinh() {
+        let banKinh = document.getElementById("r").value;
+        banKinh;
+        let S = pi * banKinh * banKinh;
+        document.write('Diện tích hình tròn ' + S)
+    }
+</script>
+</body>
+</html>
